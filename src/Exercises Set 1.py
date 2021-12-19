@@ -68,7 +68,7 @@ print(value)
 #Exercise 7: Word counting
 
 file = input('Enter File Name: ')
-if len(file) < 1 : file = 'freeCodeCamp Scientific Computing with Python\clown.txt'
+if len(file) < 1 : file = 'src\clown.txt'
 handle = open(file)
 
 for line in handle :
